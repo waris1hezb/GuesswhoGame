@@ -1,12 +1,12 @@
-object QuestionFilter extends App {
+object QuestionFilter {
 
-  val characters: List[Character] = List(
-    Character("Alice", "Female", "Blonde", hasGlasses = true, hasHat = true),
-    Character("Waris", "Male", "Black", hasGlasses = false, hasHat = false),
-    Character("Ronaldo", "Male", "Black", hasGlasses = true, hasHat = false)
-  )
+//  val characters: List[Character] = List(
+//    Character("Alice", "Female", "Blonde", hasGlasses = true, hasHat = true),
+//    Character("Waris", "Male", "Black", hasGlasses = false, hasHat = false),
+//    Character("Ronaldo", "Male", "Black", hasGlasses = true, hasHat = false)
+//  )
 
-  val secretCharacter: Character = Character("Alice", "Female", "Blonde", hasGlasses = true, hasHat = true)
+//  val secretCharacter: Character = Character("Alice", "Female", "Blonde", hasGlasses = true, hasHat = true)
 
 
 
@@ -29,11 +29,10 @@ object QuestionFilter extends App {
       }
     }
     else if (lowerCaseQuestion.contains("gender")) {
-      val gender = if (lowerCaseQuestion.contains("female")) "Male" else "Female"
+      val gender = if (lowerCaseQuestion.contains("female")) "Female" else "Male"
       characters.filter(_.gender == gender)
   }
-  else
-  {
+  else {
     characters // Return all characters if no valid question is asked
   }
 }
