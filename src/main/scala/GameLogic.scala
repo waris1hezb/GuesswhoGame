@@ -26,6 +26,11 @@ class GameLogic {
   }
 }
 
+//Needs to be done by Waris
+//Pick a random character that the player has to guess.
+//Allow the player to ask yes/no questions to narrow down the possibilities.  ADD THIS
+//Filter out characters based on the answers.
+//Let the player make a final guess.
 
 
 
