@@ -1,12 +1,18 @@
-
+import QuestionFilter._
 import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 
-class QuestionFilterSpec extends AnyFlatSpec{
+class QuestionFilterSpec extends AnyWordSpec with Matchers {
 
-  val filterQuestion = new QuestionFilter
 
-  "glasses" should "return all the characters wearing glasses" in {
-    assert(filterQuestion.filterQuestion())
+
+  "filterCharacters" should {
+    "return a list of characters wearing glasses" when {
+      "they wear glasses." in {
+
+      }
+    }
   }
 
 
