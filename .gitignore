@@ -46,6 +46,8 @@ build/
 ### Scala ###
 .bsp/
 
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
 .idea/misc.xml
 .idea/sbt.xml
 .idea/scala_compiler.xml

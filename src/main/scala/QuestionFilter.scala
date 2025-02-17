@@ -1,8 +1,3 @@
-
-
-
-
-
 object QuestionFilter extends App {
 
   val characters: List[Character] = List(
