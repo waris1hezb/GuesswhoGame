@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
+<<<<<<< HEAD
     <profile name="sbt 1" modules="GuesswhoGame,guesswhogame_2518" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <profile name="sbt 1" modules="GuesswhoGame,guesswhogame_1772" />
+=======
+<<<<<<< HEAD
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="GuesswhoGame,GuesswhoGame.main,GuesswhoGame.test" />
+=======
+    <profile name="sbt 1" modules="GuesswhoGame,guesswhogame_1772" />
+>>>>>>> 2a92fb7 (adds extra files for ignore)
+>>>>>>> b7aa78a
+=======
+    <profile name="sbt 1" modules="GuesswhoGame,guesswhogame_2518" />
+>>>>>>> e570c19 (.ignoreTrobleshooting)
+>>>>>>> 0f5b9e5
   </component>
 </project>

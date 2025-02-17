@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+<<<<<<< HEAD
     <mapping directory="" vcs="Git" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <mapping directory="" vcs="Git" />
+=======
+<<<<<<< HEAD
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+=======
+    <mapping directory="" vcs="Git" />
+>>>>>>> 2a92fb7 (adds extra files for ignore)
+>>>>>>> b7aa78a
+=======
+    <mapping directory="" vcs="Git" />
+>>>>>>> e570c19 (.ignoreTrobleshooting)
+>>>>>>> 0f5b9e5
   </component>
 </project>
