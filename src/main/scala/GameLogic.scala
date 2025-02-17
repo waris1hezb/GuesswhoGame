@@ -17,6 +17,7 @@ class GameLogic {
       remainingCharacters = newRemainingCharacters // Only update if the answer is "Yes"
     } else {
       println("No.")
+      remainingCharacters = newRemainingCharacters
     }
 
     println(s"Characters remaining: ${remainingCharacters.map(_.name).mkString(", ")}") // Display remaining characters

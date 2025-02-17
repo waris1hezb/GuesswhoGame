@@ -7,11 +7,11 @@ object QuestionFilter {
 
     if (lowerCaseQuestion.contains("glasses")) {
       val hasFeature = secretCharacter.hasGlasses
-      (hasFeature, if (hasFeature) characters.filter(_.hasGlasses) else characters)
+      (hasFeature, if (hasFeature) characters.filter(_.hasGlasses) else characters.filterNot(_.hasGlasses))
 
     } else if (lowerCaseQuestion.contains("hat")) {
       val hasFeature = secretCharacter.hasHat
-      (hasFeature, if (hasFeature) characters.filter(_.hasHat) else characters)
+      (hasFeature, if (hasFeature) characters.filter(_.hasHat) else characters.filterNot(_.hasHat))
 
     } else if (lowerCaseQuestion.contains("hair")) {
       val matchingHairColour = hairColours.find(colour => lowerCaseQuestion.contains(colour))
