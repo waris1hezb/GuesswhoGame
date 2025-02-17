@@ -1,4 +1,4 @@
-object QuestionFilter {
+  object QuestionFilter {
 
   def filterCharacters(characters: List[Character], question: String, secretCharacter: Character): List[Character] = {
 
