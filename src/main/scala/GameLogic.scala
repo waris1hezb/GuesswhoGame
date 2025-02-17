@@ -1,9 +1,9 @@
 class GameLogic {
 
-  var remainingCharacters: List[Character] = GameData.characters
-  val secretCharacter: Character = remainingCharacters(scala.util.Random.nextInt(remainingCharacters.length))
-
-  def askQuestion(question:String):
+//  var remainingCharacters: List[Character] = GameData.characters
+//  val secretCharacter: Character = remainingCharacters(scala.util.Random.nextInt(remainingCharacters.length))
+//
+//  def askQuestion(question:String):
 
 
 }
