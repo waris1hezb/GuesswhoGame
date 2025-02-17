@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
+<<<<<<< HEAD
     <option name="separateProdTestSources" value="true" />
     <profile name="sbt 1" modules="GuesswhoGame,GuesswhoGame.main,GuesswhoGame.test" />
+=======
+    <profile name="sbt 1" modules="GuesswhoGame,guesswhogame_1772" />
+>>>>>>> 2a92fb7 (adds extra files for ignore)
   </component>
 </project>

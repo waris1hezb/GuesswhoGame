@@ -1,13 +1,13 @@
 
 object QuestionFilter extends App {
 
-//  val characters: List[Character] = List(
-//    Character("Alice", "Female", "Blonde", hasGlasses = true, hasHat = true),
-//    Character("Waris", "Male", "Black", hasGlasses = false, hasHat = false),
-//    Character("Ronaldo", "Male", "Black", hasGlasses = true, hasHat = false)
-//  )
-//
-//  val secretCharacter: Character = Character("Alice", "Female", "Blonde", hasGlasses = true, hasHat = true)
+  val characters: List[Character] = List(
+    Character("Alice", "Female", "Blonde", hasGlasses = true, hasHat = true),
+    Character("Waris", "Male", "Black", hasGlasses = false, hasHat = false),
+    Character("Ronaldo", "Male", "Black", hasGlasses = true, hasHat = false)
+  )
+
+  val secretCharacter: Character = Character("Alice", "Female", "Blonde", hasGlasses = true, hasHat = true)
 
   def filterCharacters(characters: List[Character], question: String, secretCharacter: Character): List[Character] = {
 

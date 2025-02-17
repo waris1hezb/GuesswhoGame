@@ -12,7 +12,10 @@
           </set>
         </option>
         <option name="sbtVersion" value="1.10.7" />
+<<<<<<< HEAD
         <option name="separateProdAndTestSources" value="true" />
+=======
+>>>>>>> 2a92fb7 (adds extra files for ignore)
       </SbtProjectSettings>
     </option>
   </component>
