@@ -15,7 +15,7 @@ object Main extends App {
     println("\nChoose an option:")
     println("1. Ask a question")
     println("2. Guess the character")
-    println("3. Exit game")
+    println("3. Exit game\n")
 
     val choice = StdIn.readInt()
 
