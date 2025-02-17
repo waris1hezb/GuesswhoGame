@@ -1,4 +1,5 @@
 
+
 object QuestionFilter extends App {
 
   val characters: List[Character] = List(
@@ -8,6 +9,7 @@ object QuestionFilter extends App {
   )
 
   val secretCharacter: Character = Character("Alice", "Female", "Blonde", hasGlasses = true, hasHat = true)
+
 
   def filterCharacters(characters: List[Character], question: String, secretCharacter: Character): List[Character] = {
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <profile name="sbt 1" modules="GuesswhoGame,guesswhogame_1772" />
 =======
 <<<<<<< HEAD
@@ -11,5 +12,8 @@
     <profile name="sbt 1" modules="GuesswhoGame,guesswhogame_1772" />
 >>>>>>> 2a92fb7 (adds extra files for ignore)
 >>>>>>> b7aa78a
+=======
+    <profile name="sbt 1" modules="GuesswhoGame,guesswhogame_2518" />
+>>>>>>> e570c19 (.ignoreTrobleshooting)
   </component>
 </project>

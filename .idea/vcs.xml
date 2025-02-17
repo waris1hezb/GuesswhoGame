@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <mapping directory="" vcs="Git" />
 =======
 <<<<<<< HEAD
@@ -10,5 +11,8 @@
     <mapping directory="" vcs="Git" />
 >>>>>>> 2a92fb7 (adds extra files for ignore)
 >>>>>>> b7aa78a
+=======
+    <mapping directory="" vcs="Git" />
+>>>>>>> e570c19 (.ignoreTrobleshooting)
   </component>
 </project>
