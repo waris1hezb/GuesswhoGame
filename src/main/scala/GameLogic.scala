@@ -4,7 +4,8 @@ class GameLogic {
   var remainingCharacters: List[Character] = GameData.characters
 
   // Randomly select a secret character for the player to guess
-  val secretCharacter: Character = remainingCharacters(scala.util.Random.nextInt(remainingCharacters.length))
+//  val secretCharacter: Character = remainingCharacters(scala.util.Random.nextInt(remainingCharacters.length))
+  val secretCharacter: Character = Character("Ronaldo", "Male", "Black", hasGlasses = true, hasHat = false)
 
   // Asks a yes/no question and filters characters accordingly
   def askQuestion(question: String): List[Character] = {
