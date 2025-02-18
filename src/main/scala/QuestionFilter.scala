@@ -33,18 +33,13 @@ object QuestionFilter {
 
       //If "gender" is in the question, check if it refers to "Male" or "Female".
       //If the secret character is female, filter females; otherwise, remove females.
-    } else if (lowerCaseQuestion.contains("gender")) {
-      if (lowerCaseQuestion.contains("female")) {
-        val hasFeature = secretCharacter.gender == "Female"
-        (hasFeature, if (hasFeature) characters.filter(_.gender == "Female") else characters)
+    } else if (lowerCaseQuestion.contains("is the character female")) {
+      val hasFeature = secretCharacter.gender == "Female"
+      (hasFeature, if (hasFeature) characters.filter(_.gender == "Female") else characters.filterNot(_.gender == "Female"))
 
-      } else if (lowerCaseQuestion.contains("male")) {
-        val hasFeature = secretCharacter.gender == "Male"
-        (hasFeature, if (hasFeature) characters.filter(_.gender == "Male") else characters)
-
-      } else {
-        (false, characters) // If "gender" is mentioned but no specific gender is asked
-      }
+    } else if (lowerCaseQuestion.contains("is the character male")) {
+      val hasFeature = secretCharacter.gender == "Male"
+      (hasFeature, if (hasFeature) characters.filter(_.gender == "Male") else characters.filterNot(_.gender == "Male"))
 
     } else {
       (false, characters) // Return the same list if no valid question is asked

@@ -5,8 +5,8 @@ class GameLogic {
   var remainingCharacters: List[Character] = GameData.characters
 
   // Randomly select a secret character for the player to guess
-  //  val secretCharacter: Character = remainingCharacters(scala.util.Random.nextInt(remainingCharacters.length))
-  val secretCharacter: Character = Character("Ronaldo", "Male", "Black", hasGlasses = true, hasHat = false)
+    val secretCharacter: Character = remainingCharacters(scala.util.Random.nextInt(remainingCharacters.length))
+//  val secretCharacter: Character = Character("Ronaldo", "Male", "Black", hasGlasses = true, hasHat = false)
 
   // Asks a yes/no question and filters characters accordingly
   //Calls QuestionFilter.filterCharacters to determine the answer (true if it matches the feature or false) and filter the remaining characters.
@@ -72,42 +72,6 @@ class GameLogic {
 
 
 
-
-
-
-//import scala.util.Random
-//
-//class GameLogic {
-//
-//  // List of remaining characters in the game
-//  var remainingCharacters: List[Character] = GameData.characters
-//
-//  // Randomly select a secret character for the player to guess
-//
-//  val secretCharacter: Character = remainingCharacters(Random.nextInt(remainingCharacters.length))
-//
-//  // Asks a yes/no question and filters characters accordingly
-//  def askQuestion(question: String): List[Character] = {
-//    val newRemainingCharacters = QuestionFilter.filterCharacters(remainingCharacters, question, secretCharacter)
-//    remainingCharacters = newRemainingCharacters
-//    println(s"Characters remaining: ${remainingCharacters.map(_.name).mkString(", ")}") // Display remaining characters
-//    remainingCharacters
-//  }
-//
-//  // Player makes a guess about the secret character
-//  def guessCharacter(name: String): Boolean = {
-//    val guessedCorrectly = name == secretCharacter.name
-//
-//    if (guessedCorrectly) {
-//      remainingCharacters = List(secretCharacter) // Only the correct answer remains
-//      println(s"🎉 Congratulations! You guessed correctly: $name")
-//    } else {
-//      remainingCharacters = remainingCharacters.filterNot(_.name == name) // Remove incorrect guess
-//      println(s"❌ Incorrect guess: $name. Try asking more questions.")
-//    }
-//    guessedCorrectly
-//  }
-//}
 
 
 
