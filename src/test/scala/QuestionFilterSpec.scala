@@ -10,7 +10,7 @@ class QuestionFilterSpec extends AnyWordSpec with Matchers {
 
   "filterCharacters" should {
     //test if the secret character has glasses and return a list of all characters that match his hasGlasses boolean
-    "return a boolean and a list of characters wearing glasses" when {
+    "return true and a list of characters wearing glasses" when {
       "the characters wear glasses" in {
         val question = "does the person have glasses?"
 
@@ -25,20 +25,20 @@ class QuestionFilterSpec extends AnyWordSpec with Matchers {
     }
 
     //test if the secret character has glasses and return a list of all characters that match his hasHat boolean
-    "return a boolean and a list of characters wearing a hat" when {
+    "return false and a list of characters wearing a hat" when {
       "the characters wear a hat" in {
         val question = "do they wear a hat?"
 
         val result = filterCharacters(characters, question, secretCharacter)
 
-        val expectedResult = (false, List(characters(1), characters(2), characters(4)))
+        val expectedResult = (false, List(characters(1), characters(2), characters(4), characters(5), characters(7)))
 
         result shouldBe expectedResult
       }
     }
 
     //test if the secret character is Male and this will return a list of all characters that are male
-    "return a boolean and a list of characters who are male" when {
+    "return true and a list of characters who are male" when {
       "the characters are men" in {
         val question = "is the character male?"
 
@@ -73,8 +73,7 @@ class QuestionFilterSpec extends AnyWordSpec with Matchers {
 
         val result = filterCharacters(characters, question, secretCharacter)
 
-        val expectedResult = (false, List(characters(1), characters(2), characters(3), characters(4)))
-
+        val expectedResult = (false, List(characters(1), characters(2), characters(3), characters(4), characters(6), characters (7)))
         result shouldBe expectedResult
       }
     }
@@ -88,7 +87,7 @@ class QuestionFilterSpec extends AnyWordSpec with Matchers {
 
         val result = filterCharacters(characters, question, secretCharacter)
 
-        val expectedResult = (true, List(characters(1), characters(2)))
+        val expectedResult = (true, List(characters(1), characters(2), characters (7)))
 
         result shouldBe expectedResult
       }
@@ -101,7 +100,7 @@ class QuestionFilterSpec extends AnyWordSpec with Matchers {
 
         val result = filterCharacters(characters, question, secretCharacter)
 
-        val expectedResult = (false, List(characters(0), characters(1), characters(2), characters(3), characters(4), characters(5)))
+        val expectedResult = (false, List(characters(0), characters(1), characters(2), characters(3), characters(4), characters(5), characters(6), characters(7)))
         result shouldBe expectedResult
       }
     }
@@ -114,7 +113,7 @@ class QuestionFilterSpec extends AnyWordSpec with Matchers {
 
         val result = filterCharacters(characters, question, secretCharacter)
 
-        val expectedResult = (false, List(characters(0), characters(1), characters(2), characters(3), characters(4), characters(5)))
+        val expectedResult = (false, List(characters(0), characters(1), characters(2), characters(3), characters(4), characters(5), characters(6), characters(7)))
         result shouldBe expectedResult
       }
     }
