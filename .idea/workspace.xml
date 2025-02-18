@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7c7d2e7-40f8-4136-ad61-d6605d670397" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/AsciiArt.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/GameData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/GameData.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/GameLogic.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/GameLogic.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/QuestionFilter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/QuestionFilter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
