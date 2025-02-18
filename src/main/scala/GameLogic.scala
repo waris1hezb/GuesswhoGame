@@ -35,7 +35,7 @@ class GameLogic {
       remainingCharacters = List(secretCharacter) // Only the correct answer remains
       println(s"🎉 Congratulations! You guessed correctly: $name")
     } else {
-      remainingCharacters = remainingCharacters.filterNot(_.name == name) // Remove incorrect guess
+      remainingCharacters = remainingCharacters.filterNot(_.name.equalsIgnoreCase(name)) // Remove incorrect guess
       println(s"❌ Incorrect guess: $name. Try asking more questions.")
     }
     guessedCorrectly

@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c7c7d2e7-40f8-4136-ad61-d6605d670397" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/QuestionFilterSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/QuestionFilterSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/GameLogic.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/GameLogic.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/QuestionFilter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/QuestionFilter.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,24 +68,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "ScalaTest.QuestionFilterSpec.executor": "Run",
-    "ScalaTest.QuestionFilterSpec.filterCharacters should return a Boolean and a list of characters wearing glasses when the characters wear glasses.executor": "Run",
-    "ScalaTest.QuestionFilterSpec.filterCharacters should return a boolean and a list of characters wearing a hat when the characters wear a hat.executor": "Run",
-    "ScalaTest.QuestionFilterSpec.filterCharacters should return a boolean and a list of characters wearing glasses when the characters wear glasses.executor": "Run",
-    "ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when the characters wear glasses.executor": "Run",
-    "ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses..executor": "Run",
-    "ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses.executor": "Run",
-    "git-widget-placeholder": "MVP",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/waris.hezb/Documents/GuesswhoGame"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;ScalaTest.QuestionFilterSpec.executor&quot;: &quot;Run&quot;,
+    &quot;ScalaTest.QuestionFilterSpec.filterCharacters should return a Boolean and a list of characters wearing glasses when the characters wear glasses.executor&quot;: &quot;Run&quot;,
+    &quot;ScalaTest.QuestionFilterSpec.filterCharacters should return a boolean and a list of characters wearing a hat when the characters wear a hat.executor&quot;: &quot;Run&quot;,
+    &quot;ScalaTest.QuestionFilterSpec.filterCharacters should return a boolean and a list of characters wearing glasses when the characters wear glasses.executor&quot;: &quot;Run&quot;,
+    &quot;ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when the characters wear glasses.executor&quot;: &quot;Run&quot;,
+    &quot;ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses..executor&quot;: &quot;Run&quot;,
+    &quot;ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;MVP&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/waris.hezb/Documents/GuesswhoGame&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="ScalaTest.QuestionFilterSpec.filterCharacters should return a boolean and a list of characters wearing a hat when the characters wear a hat">
+}</component>
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="guesswhogame_4782" />
       <method v="2">

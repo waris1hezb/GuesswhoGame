@@ -26,8 +26,8 @@ object QuestionFilter {
       val matchingHairColour = hairColours.find(colour => lowerCaseQuestion.contains(colour))
       matchingHairColour match {
         case Some(colour) =>
-          val hasFeature = secretCharacter.hairColour.toLowerCase == colour
-          (hasFeature, if (hasFeature) characters.filter(_.hairColour.toLowerCase == colour) else characters)
+          val hasFeature = secretCharacter.hairColour.equalsIgnoreCase(colour)
+          (hasFeature, if (hasFeature) characters.filter(_.hairColour.equalsIgnoreCase(colour)) else characters.filterNot(_.hairColour.equalsIgnoreCase(colour)))
         case None => (false, characters)
       }
 
