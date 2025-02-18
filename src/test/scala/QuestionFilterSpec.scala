@@ -15,8 +15,9 @@ class QuestionFilterSpec extends AnyWordSpec with Matchers {
 
         //call the method
         val result = filterCharacters(characters, question, secretCharacter)
+
         //expected result
-        val expectedResult = true; characters(0); characters(3); characters(5)
+        val expectedResult = (true, List(characters.head, characters(3), characters(5)))
 
         result shouldBe expectedResult
       }

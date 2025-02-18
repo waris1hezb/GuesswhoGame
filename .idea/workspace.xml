@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7c7d2e7-40f8-4136-ad61-d6605d670397" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/QuestionFilterSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/QuestionFilterSpec.scala" afterDir="false" />
     </list>
@@ -74,6 +73,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "ScalaTest.QuestionFilterSpec.executor": "Run",
+    "ScalaTest.QuestionFilterSpec.filterCharacters should return a Boolean and a list of characters wearing glasses when the characters wear glasses.executor": "Run",
+    "ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when the characters wear glasses.executor": "Run",
     "ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses..executor": "Run",
     "ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses.executor": "Run",
     "git-widget-placeholder": "MVP",
@@ -81,7 +82,7 @@
     "last_opened_file_path": "/Users/waris.hezb/Documents/GuesswhoGame"
   }
 }]]></component>
-  <component name="RunManager" selected="ScalaTest.QuestionFilterSpec.filterCharacters should return a Boolean and a list of characters wearing glasses when the characters wear glasses">
+  <component name="RunManager" selected="ScalaTest.QuestionFilterSpec">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="guesswhogame_4782" />
       <method v="2">
@@ -244,9 +245,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.QuestionFilterSpec" />
         <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return a Boolean and a list of characters wearing glasses when the characters wear glasses" />
         <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when the characters wear glasses" />
-        <item itemvalue="ScalaTest.QuestionFilterSpec" />
         <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses" />
         <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses." />
       </list>
