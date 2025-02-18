@@ -1,13 +1,16 @@
+//This file manages the game flow and keeps track of the remaining characters.
 class GameLogic {
 
   // List of remaining characters in the game
   var remainingCharacters: List[Character] = GameData.characters
 
   // Randomly select a secret character for the player to guess
-//  val secretCharacter: Character = remainingCharacters(scala.util.Random.nextInt(remainingCharacters.length))
+  //  val secretCharacter: Character = remainingCharacters(scala.util.Random.nextInt(remainingCharacters.length))
   val secretCharacter: Character = Character("Ronaldo", "Male", "Black", hasGlasses = true, hasHat = false)
 
   // Asks a yes/no question and filters characters accordingly
+  //Calls QuestionFilter.filterCharacters to determine the answer (true if it matches the feature or false) and filter the remaining characters.
+
   def askQuestion(question: String): List[Character] = {
     val (answer, newRemainingCharacters) = QuestionFilter.filterCharacters(remainingCharacters, question, secretCharacter)
 

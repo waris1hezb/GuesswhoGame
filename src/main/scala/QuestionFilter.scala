@@ -1,10 +1,18 @@
 //This file contains the logic for filtering characters based on user questions.
 object QuestionFilter {
 
+  //Returns:
+  //A Boolean indicating if the answer to the question is true or false.
+  //A filtered list of remaining characters.
   def filterCharacters(characters: List[Character], question: String, secretCharacter: Character): (Boolean, List[Character]) = {
 
     val hairColours = List("blonde", "black", "brown", "red")
     val lowerCaseQuestion = question.toLowerCase
+
+
+//    Checks if the question contains "glasses".
+//    If the secret character has glasses (true), filter only those who have glasses.
+//    If not, remove all characters who have glasses.
 
     if (lowerCaseQuestion.contains("glasses")) {
       val hasFeature = secretCharacter.hasGlasses
@@ -23,6 +31,8 @@ object QuestionFilter {
         case None => (false, characters)
       }
 
+      //If "gender" is in the question, check if it refers to "Male" or "Female".
+      //If the secret character is female, filter females; otherwise, remove females.
     } else if (lowerCaseQuestion.contains("gender")) {
       if (lowerCaseQuestion.contains("female")) {
         val hasFeature = secretCharacter.gender == "Female"
@@ -59,47 +69,6 @@ object QuestionFilter {
 
 
 
-
-
-
-
-
-//object QuestionFilter {
-//
-//  def filterCharacters(characters: List[Character], question: String, secretCharacter: Character): List[Character] = {
-//
-//    val hairColours = List("blonde", "black", "brown", "red")
-//    val lowerCaseQuestion = question.toLowerCase
-//
-//    if (lowerCaseQuestion.contains("glasses")) {
-//      characters.filter(_.hasGlasses == secretCharacter.hasGlasses)
-//
-//    } else if (lowerCaseQuestion.contains("hat")) {
-//      characters.filter(_.hasHat == secretCharacter.hasHat)
-//
-//    } else if (lowerCaseQuestion.contains("hair")) {
-//      val matchingHairColour = hairColours.find(colour => lowerCaseQuestion.contains(colour))
-//      matchingHairColour match {
-//        case Some(colour) => characters.filter(_.hairColour.toLowerCase == colour)
-//        case None => characters
-//      }
-//
-//    } else if (lowerCaseQuestion.contains("gender")) {
-//      if (lowerCaseQuestion.contains("female")) {
-//        // Only keep characters whose gender matches the secret character's gender
-//        characters.filter(_.gender.toLowerCase == secretCharacter.gender.toLowerCase)
-//      } else if (lowerCaseQuestion.contains("male")) {
-//        // Only keep characters whose gender matches the secret character's gender
-//        characters.filter(_.gender.toLowerCase == secretCharacter.gender.toLowerCase)
-//      } else {
-//        characters // If "gender" is mentioned but no specific gender is asked, return all characters
-//      }
-//
-//    } else {
-//      characters // Return all characters if no valid question is asked
-//    }
-//  }
-//}
 
 
 
@@ -164,72 +133,3 @@ object QuestionFilter {
 
 
 
-
-
-//object QuestionFilter extends App {
-//
-//  val characters: List[Character] = List(
-//    Character("Alice", "Female", "Blonde", hasGlasses = true, hasHat = true),
-//    Character("Waris", "Male", "Black", hasGlasses = false, hasHat = false),
-//    Character("Ronaldo", "Male", "Black", hasGlasses = true, hasHat = false)
-//  )
-//
-//  val secretCharacter: Character = Character("Alice", "Female", "Blonde", hasGlasses = true, hasHat = true)
-//
-//
-//  def filterCharacters(characters: List[Character], question: String, secretCharacter: Character): List[Character] = {
-//
-//    val hairColours = List("blonde", "black", "brown", "red")
-//
-//
-//    if (question.contains("glasses")) {
-//      characters.filter(_.hasGlasses == secretCharacter.hasGlasses)
-//    }
-//    else if (question.contains("hat")) {
-//      characters.filter(_.hasHat == secretCharacter.hasHat)
-//    }
-//    else if (question.toLowerCase.contains("hair")) {
-//      val matchingHairColour = hairColours.find(colour => question.toLowerCase.contains(colour))
-//      matchingHairColour match {
-//        case Some(colour) => characters.filter(_.hairColour.equalsIgnoreCase(colour))
-//        case None => characters
-//      }
-//    }
-//    else if (question.contains("gender")) {
-//      if (question.contains("male")) {
-//        characters.filter(_.gender.equalsIgnoreCase("Male"))
-//      }
-//      else if (question.contains("female")) {
-//        characters.filter(_.gender.equalsIgnoreCase("Female"))
-//      }
-//      else {
-//        characters
-//      }
-//    }
-//    else{
-//        characters
-//
-//    }
-//
-//  }
-//
-////  Test filtering by hair colour
-//
-//  val filteredByHair = QuestionFilter.filterCharacters(characters, "Does the character have blonde hair?", secretCharacter)
-//  println(filteredByHair)
-//
-//  //   Asking if the character has glasses
-//  val filteredByGlasses = QuestionFilter.filterCharacters(characters, "Does the character have glasses?", secretCharacter)
-//  println(filteredByGlasses)
-//
-//  // Asking about gender
-//  val filteredByGender = QuestionFilter.filterCharacters(characters, "Is the character Male?", secretCharacter)
-//  println(filteredByGender)
-//
-//}
-//
-//
-
-
-//Handles  filtering logic for questions using if/else statements
-  //SANDRA TEST _ CAN YOU READ THIS??

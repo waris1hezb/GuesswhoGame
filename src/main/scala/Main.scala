@@ -2,21 +2,23 @@
 import scala.io.StdIn
 
 object Main extends App {
-
+  //Initialise the game logic
   val game = new GameLogic()
 
   println("Welcome to Guess Who! 🎭")
   println("You can ask questions like: 'Does the character have glasses?' or 'Is the character Male?'")
   println("Or, you can guess the character's name directly.")
 
+  //control variable to keep the game running
   var gameRunning = true
 
   while (gameRunning) {
-    println("\nChoose an option:")
+    println("\nChoose an option: 1, 2, or 3")
     println("1. Ask a question")
     println("2. Guess the character")
     println("3. Exit game\n")
 
+    //Read players choice
     val choice = StdIn.readInt()
 
     choice match {
@@ -27,7 +29,7 @@ object Main extends App {
 
       case 2 =>
         println("Enter the name of the character you want to guess:")
-        val name = StdIn.readLine()
+        val name = StdIn.readLine().capitalize
         if (game.guessCharacter(name)) {
           gameRunning = false // End game if guessed correctly
         }
