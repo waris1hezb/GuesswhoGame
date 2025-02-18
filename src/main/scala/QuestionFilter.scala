@@ -1,3 +1,4 @@
+//This file contains the logic for filtering characters based on user questions.
 object QuestionFilter {
 
   def filterCharacters(characters: List[Character], question: String, secretCharacter: Character): (Boolean, List[Character]) = {
