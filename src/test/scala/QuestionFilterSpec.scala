@@ -37,7 +37,89 @@ class QuestionFilterSpec extends AnyWordSpec with Matchers {
       }
     }
 
-    //test if the secret character is Male and this will return a list of all characters
+    //test if the secret character is Male and this will return a list of all characters that are male
+    "return a boolean and a list of characters who are male" when {
+      "the characters are men" in {
+        val question = "is the character male?"
+
+        val result = filterCharacters(characters, question, secretCharacter)
+
+        val expectedResult = (true, List(characters(1), characters(2), characters(5)))
+
+        result shouldBe expectedResult
+      }
+    }
+
+
+    //test if the secret character is Female and this will return a list of all characters that are male
+    "return false and a list of characters who are male" when {
+      "the characters are male" in {
+        val question = "is the character female?"
+
+        val result = filterCharacters(characters, question, secretCharacter)
+
+        val expectedResult = (false, List(characters(1), characters(2), characters(5)))
+
+        result shouldBe expectedResult
+      }
+    }
+
+
+    //test if the hair colour is blonde and this will return a list of all characters that are not blonde
+
+    "return false and a list of characters who are not blonde" when {
+      "the characters are not blonde" in {
+        val question = "Does the person have blonde hair"
+
+        val result = filterCharacters(characters, question, secretCharacter)
+
+        val expectedResult = (false, List(characters(1), characters(2), characters(3), characters(4)))
+
+        result shouldBe expectedResult
+      }
+    }
+
+
+    //test if the hair colour is black and this will return a list of all characters that have black hair
+
+    "return true and a list of characters who have black hair" when {
+      "the characters have black hair" in {
+        val question = "does the person have black hair"
+
+        val result = filterCharacters(characters, question, secretCharacter)
+
+        val expectedResult = (true, List(characters(1), characters(2)))
+
+        result shouldBe expectedResult
+      }
+    }
+
+    //test if anything invalid is entered, it will return all the characters entirely
+    "return false and a list of all characters" when {
+      "anything is invalid" in {
+        val question = "Is it an alien"
+
+        val result = filterCharacters(characters, question, secretCharacter)
+
+        val expectedResult = (false, List(characters(0), characters(1), characters(2), characters(3), characters(4), characters(5)))
+        result shouldBe expectedResult
+      }
+    }
+
+
+    //test if nothing is entered, it will return all the characters entirely
+    "return false and a list of all characters" when {
+      "nothing is entered" in {
+        val question = ""
+
+        val result = filterCharacters(characters, question, secretCharacter)
+
+        val expectedResult = (false, List(characters(0), characters(1), characters(2), characters(3), characters(4), characters(5)))
+        result shouldBe expectedResult
+      }
+    }
+
+
 
   }
 }
