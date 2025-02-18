@@ -36,5 +36,8 @@ class QuestionFilterSpec extends AnyWordSpec with Matchers {
         result shouldBe expectedResult
       }
     }
+
+    //test if the secret character is Male and this will return a list of all characters
+
   }
 }
