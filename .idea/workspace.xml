@@ -74,6 +74,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "ScalaTest.QuestionFilterSpec.executor": "Run",
     "ScalaTest.QuestionFilterSpec.filterCharacters should return a Boolean and a list of characters wearing glasses when the characters wear glasses.executor": "Run",
+    "ScalaTest.QuestionFilterSpec.filterCharacters should return a boolean and a list of characters wearing a hat when the characters wear a hat.executor": "Run",
+    "ScalaTest.QuestionFilterSpec.filterCharacters should return a boolean and a list of characters wearing glasses when the characters wear glasses.executor": "Run",
     "ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when the characters wear glasses.executor": "Run",
     "ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses..executor": "Run",
     "ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses.executor": "Run",
@@ -82,7 +84,7 @@
     "last_opened_file_path": "/Users/waris.hezb/Documents/GuesswhoGame"
   }
 }]]></component>
-  <component name="RunManager" selected="ScalaTest.QuestionFilterSpec">
+  <component name="RunManager" selected="ScalaTest.QuestionFilterSpec.filterCharacters should return a boolean and a list of characters wearing a hat when the characters wear a hat">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="guesswhogame_4782" />
       <method v="2">
@@ -153,6 +155,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuestionFilterSpec.filterCharacters should return a boolean and a list of characters wearing a hat when the characters wear a hat" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="GuesswhoGame" />
+      <option name="VMParameters" value="" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="alternativeJrePath" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="classpathModifications">
+        <list />
+      </option>
+      <option name="envFilePaths">
+        <list />
+      </option>
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="testClassPath" value="QuestionFilterSpec" />
+      <option name="testName" value="filterCharacters should return a boolean and a list of characters wearing a hat when the characters wear a hat" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuestionFilterSpec.filterCharacters should return a boolean and a list of characters wearing glasses when the characters wear glasses" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="GuesswhoGame" />
+      <option name="VMParameters" value="" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="alternativeJrePath" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="classpathModifications">
+        <list />
+      </option>
+      <option name="envFilePaths">
+        <list />
+      </option>
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Test name" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="testClassPath" value="QuestionFilterSpec" />
+      <option name="testName" value="filterCharacters should return a boolean and a list of characters wearing glasses when the characters wear glasses" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when the characters wear glasses" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="GuesswhoGame" />
       <option name="VMParameters" value="" />
@@ -183,73 +245,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="GuesswhoGame" />
-      <option name="VMParameters" value="" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="alternativeJrePath" />
-      <option name="alternativeJrePathEnabled" value="false" />
-      <option name="classpathModifications">
-        <list />
-      </option>
-      <option name="envFilePaths">
-        <list />
-      </option>
-      <option name="envs">
-        <map />
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <option name="testClassPath" value="QuestionFilterSpec" />
-      <option name="testName" value="filterCharacters should return a list of characters wearing glasses when they wear glasses" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses." type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="GuesswhoGame" />
-      <option name="VMParameters" value="" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="alternativeJrePath" />
-      <option name="alternativeJrePathEnabled" value="false" />
-      <option name="classpathModifications">
-        <list />
-      </option>
-      <option name="envFilePaths">
-        <list />
-      </option>
-      <option name="envs">
-        <map />
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <option name="testClassPath" value="QuestionFilterSpec" />
-      <option name="testName" value="filterCharacters should return a list of characters wearing glasses when they wear glasses." />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return a boolean and a list of characters wearing a hat when the characters wear a hat" />
         <item itemvalue="ScalaTest.QuestionFilterSpec" />
+        <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return a boolean and a list of characters wearing glasses when the characters wear glasses" />
         <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return a Boolean and a list of characters wearing glasses when the characters wear glasses" />
         <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when the characters wear glasses" />
-        <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses" />
-        <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses." />
       </list>
     </recent_temporary>
   </component>
