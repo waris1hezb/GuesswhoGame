@@ -6,7 +6,7 @@ class GameLogic {
 
   // Unique icons for each character
   val characterIcons: Map[String, String] = Map(
-    "Ronaldo" -> "⚽", "Alice" -> "👩‍🎤", "Diana" -> "👸", "Waris" -> "🕵️‍♂️",
+    "Ronaldo" -> "⚽", "April" -> "👩‍🎤", "Robyn" -> "👸", "Waris" -> "🕵️‍♂️",
     "Halaand" -> "⚽", "Dorothea" -> "📚", "Sandra" -> "🚀", "Mary" -> "🎭"
   )
 
