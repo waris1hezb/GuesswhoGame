@@ -34,6 +34,7 @@ cd GuesswhoGame
 
 #### Complie and Run the Game
 scalac Main.scala GameLogic.scala Character.scala QuestionFilter.scala GameData.scala AsciiArt.scala
+
 scala Main
 
 
