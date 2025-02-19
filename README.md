@@ -32,7 +32,9 @@ cd /your/desired/path/
 git clone git@github.com:waris1hezb/GuesswhoGame.git
 cd GuesswhoGame
 
-#### Open on IntelliJ and run 
+#### Complie and Run the Game
+scalac Main.scala GameLogic.scala Character.scala QuestionFilter.scala GameData.scala AsciiArt.scala
+scala Main
 
 
 
