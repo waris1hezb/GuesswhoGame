@@ -9,7 +9,7 @@ class QuestionFilterSpec extends AnyWordSpec with Matchers {
   val secretCharacter: Character = Character("Ronaldo", "Male", "Black", hasGlasses = true, hasHat = false)
 
   "filterCharacters" should {
-    //test if the secret character has glasses and return a list of all characters that match his hasGlasses boolean
+    //test if the secret character has glasses and return a list of all characters that match his hasGlasses with boolean of true
     "return true and a list of characters wearing glasses" when {
       "the characters wear glasses" in {
         val question = "does the person have glasses?"
@@ -24,7 +24,7 @@ class QuestionFilterSpec extends AnyWordSpec with Matchers {
       }
     }
 
-    //test if the secret character has glasses and return a list of all characters that match his hasHat boolean
+    //test if the secret character has glasses and return a list of all characters that match his hasHat with boolean of false
     "return false and a list of characters wearing a hat" when {
       "the characters wear a hat" in {
         val question = "do they wear a hat?"
@@ -51,9 +51,9 @@ class QuestionFilterSpec extends AnyWordSpec with Matchers {
     }
 
 
-    //test if the secret character is Female and this will return a list of all characters that are male
-    "return false and a list of characters who are male" when {
-      "the characters are male" in {
+    //test if the secret character is Female and this will return a list of all characters that are female
+    "return false and a list of characters who are female" when {
+      "the characters are female" in {
         val question = "is the character female?"
 
         val result = filterCharacters(characters, question, secretCharacter)

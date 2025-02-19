@@ -80,9 +80,11 @@
     "ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses..executor": "Run",
     "ScalaTest.QuestionFilterSpec.filterCharacters should return a list of characters wearing glasses when they wear glasses.executor": "Run",
     "ScalaTest.QuestionFilterSpec.filterCharacters should return false and a list of all characters when anything is invalid.executor": "Run",
+    "ScalaTest.QuestionFilterSpec.filterCharacters should return false and a list of all characters when nothing is entered.executor": "Run",
     "ScalaTest.QuestionFilterSpec.filterCharacters should return false and a list of characters wearing a hat when the characters wear a hat.executor": "Run",
     "ScalaTest.QuestionFilterSpec.filterCharacters should return false and a list of characters who are not blonde when the characters are not blonde.executor": "Run",
     "ScalaTest.QuestionFilterSpec.filterCharacters should return true and a list of characters wearing glasses when the characters wear glasses\nfilterCharacters should return false and a list of characters wearing a hat when the characters wear a hat\nfilterCharacters should return a boolean and a list of characters who are male when the characters are men\nfilterCharacters should return false and a list of characters who are male when the characters are male\nfilterCharacters should return false and a list of characters who are not blonde when the characters are not blonde\nfilterCharacters should return true and a list of characters who have black hair when the characters have black hair\nfilterCharacters should return false and a list of all characters when anything is invalid\nfilterCharacters should return false and a list of all characters when nothing is entered.executor": "Run",
+    "ScalaTest.QuestionFilterSpec.filterCharacters should return true and a list of characters wearing glasses when the characters wear glasses\nfilterCharacters should return false and a list of characters wearing a hat when the characters wear a hat\nfilterCharacters should return true and a list of characters who are male when the characters are men\nfilterCharacters should return false and a list of characters who are male when the characters are male\nfilterCharacters should return false and a list of characters who are not blonde when the characters are not blonde\nfilterCharacters should return true and a list of characters who have black hair when the characters have black hair\nfilterCharacters should return false and a list of all characters when anything is invalid\nfilterCharacters should return false and a list of all characters when nothing is entered.executor": "Run",
     "ScalaTest.QuestionFilterSpec.filterCharacters should return true and a list of characters wearing glasses when the characters wear glasses.executor": "Run",
     "ScalaTest.QuestionFilterSpec.filterCharacters should return true and a list of characters who have black hair when the characters have black hair.executor": "Run",
     "git-widget-placeholder": "MVP",
@@ -90,7 +92,7 @@
     "last_opened_file_path": "/Users/waris.hezb/Documents/GuesswhoGame"
   }
 }]]></component>
-  <component name="RunManager" selected="ScalaTest.QuestionFilterSpec.filterCharacters should return true and a list of characters wearing glasses when the characters wear glasses&#10;filterCharacters should return false and a list of characters wearing a hat when the characters wear a hat&#10;filterCharacters should return true and a list of characters who are male when the characters are men&#10;filterCharacters should return false and a list of characters who are male when the characters are male&#10;filterCharacters should return false and a list of characters who are not blonde when the characters are not blonde&#10;filterCharacters should return true and a list of characters who have black hair when the characters have black hair&#10;filterCharacters should return false and a list of all characters when anything is invalid&#10;filterCharacters should return false and a list of all characters when nothing is entered">
+  <component name="RunManager" selected="ScalaTest.QuestionFilterSpec">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="guesswhogame_4782" />
       <method v="2">
@@ -101,6 +103,35 @@
       <module name="guesswhogame_4782" />
       <option name="filePath" />
       <method v="2" />
+    </configuration>
+    <configuration name="QuestionFilterSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="GuesswhoGame" />
+      <option name="VMParameters" value="" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="alternativeJrePath" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="classpathModifications">
+        <list />
+      </option>
+      <option name="envFilePaths">
+        <list />
+      </option>
+      <option name="envs">
+        <map />
+      </option>
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <option name="testClassPath" value="QuestionFilterSpec" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="QuestionFilterSpec.filterCharacters should return false and a list of all characters when anything is invalid" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="GuesswhoGame" />
@@ -162,7 +193,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestionFilterSpec.filterCharacters should return false and a list of characters who are not blonde when the characters are not blonde" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="QuestionFilterSpec.filterCharacters should return true and a list of characters wearing glasses when the characters wear glasses" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="GuesswhoGame" />
       <option name="VMParameters" value="" />
       <option name="allowRunningInParallel" value="false" />
@@ -186,7 +217,7 @@
       <option name="testKind" value="Test name" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <option name="testClassPath" value="QuestionFilterSpec" />
-      <option name="testName" value="filterCharacters should return false and a list of characters who are not blonde when the characters are not blonde" />
+      <option name="testName" value="filterCharacters should return true and a list of characters wearing glasses when the characters wear glasses" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -222,43 +253,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuestionFilterSpec.filterCharacters should return true and a list of characters who have black hair when the characters have black hair" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="GuesswhoGame" />
-      <option name="VMParameters" value="" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="alternativeJrePath" />
-      <option name="alternativeJrePathEnabled" value="false" />
-      <option name="classpathModifications">
-        <list />
-      </option>
-      <option name="envFilePaths">
-        <list />
-      </option>
-      <option name="envs">
-        <map />
-      </option>
-      <option name="passParentEnvs" value="true" />
-      <option name="programParameters" value="" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Test name" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <option name="testClassPath" value="QuestionFilterSpec" />
-      <option name="testName" value="filterCharacters should return true and a list of characters who have black hair when the characters have black hair" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.QuestionFilterSpec" />
+        <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return true and a list of characters wearing glasses when the characters wear glasses" />
         <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return true and a list of characters wearing glasses when the characters wear glasses&#10;filterCharacters should return false and a list of characters wearing a hat when the characters wear a hat&#10;filterCharacters should return true and a list of characters who are male when the characters are men&#10;filterCharacters should return false and a list of characters who are male when the characters are male&#10;filterCharacters should return false and a list of characters who are not blonde when the characters are not blonde&#10;filterCharacters should return true and a list of characters who have black hair when the characters have black hair&#10;filterCharacters should return false and a list of all characters when anything is invalid&#10;filterCharacters should return false and a list of all characters when nothing is entered" />
         <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return false and a list of all characters when nothing is entered" />
         <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return false and a list of all characters when anything is invalid" />
-        <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return true and a list of characters who have black hair when the characters have black hair" />
-        <item itemvalue="ScalaTest.QuestionFilterSpec.filterCharacters should return false and a list of characters who are not blonde when the characters are not blonde" />
       </list>
     </recent_temporary>
   </component>
@@ -275,5 +276,16 @@
       <updated>1739824271091</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/test/scala/QuestionFilterSpec.scala</url>
+          <line>109</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
